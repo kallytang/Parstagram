@@ -38,7 +38,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="70dp"
-        android:contentDescription="instagram logo"
+        android:contentDescription="@string/instagram_logo"
         app:srcCompat="@drawable/nav_logo_whiteout" />
 
     <Button
@@ -47,26 +47,5 @@
         android:layout_height="wrap_content"
         android:layout_below="@+id/etNewPassword"
         android:layout_marginTop="20dp"
-        android:text="@string/login" />
-
-    <TextView
-        android:id="@+id/sign_up_text"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnSignUp"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="60dp"
-        android:layout_marginTop="10dp"
-        android:text="Don't have an account?" />
-
-    <TextView
-        android:id="@+id/tvlogin_text_link"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@+id/btnSignUp"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="10dp"
-        android:layout_toEndOf="@+id/sign_up_text"
-        android:textColor="@color/colorPrimary"
-        android:text="Sign Up" />
+        android:text="@string/sign_up" />
 </RelativeLayout>

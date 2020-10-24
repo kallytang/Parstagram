@@ -18,6 +18,7 @@ import android.widget.EditText;
 import android.widget.ImageView;
 import android.widget.PopupWindow;
 import android.widget.ProgressBar;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.parse.FindCallback;
@@ -40,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
     private File photoFile;
     private String photoFileName = "photo.jpg";
     ProgressBar pbLoading;
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
