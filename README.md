@@ -85,20 +85,29 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [] List anything else that you can get done to improve the app functionality
+- [ ] List anything else that you can get done to improve the app functionality
 
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+User can login and log out:<br>
+<img src='https://github.com/kallytang/Parstagram/blob/master/Login.gif' width='250' alt='Video Walkthrough' /><br>
+
+Data is persisted across app restarts:<br>
+<img src='https://github.com/kallytang/Parstagram/blob/master/persistence.gif' width='250' alt='Video Walkthrough' /><br>
+
+A new user is able to sign up and use the app: <br>
+<img src='https://github.com/kallytang/Parstagram/blob/master/signup.gif' title='Video Walkthrough' width='250' alt='Video Walkthrough' /><br>
+
+
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+Nothing in particular to note. 
 
 ## Open-source libraries used
 
@@ -107,7 +116,7 @@ Describe any challenges encountered while building the app.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright [2020] [Kally Tang]
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
