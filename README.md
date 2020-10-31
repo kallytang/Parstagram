@@ -40,7 +40,7 @@ User can view 20 posts:<br>
 User can swipe and refresh:<br>
 <img src='https://github.com/kallytang/Parstagram/blob/master/swiperefresh.gif' title='Video Walkthrough' width='250px' alt='Video Walkthrough' /><br>
 
-User can go to profile and viewuser's feed to see their post 
+User can go to profile and viewuser's feed to see their post:<br>
 <img src='https://github.com/kallytang/Parstagram/blob/master/user_feed2.gif' title='Video Walkthrough' width='250px' alt='Video Walkthrough' /><br>
 
 User can navigate between posts: <br>
