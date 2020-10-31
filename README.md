@@ -35,7 +35,7 @@ The following **additional** features are implemented:
 Here's a walkthrough of implemented user stories:
 
 User can view 20 posts:<br>
-<img src='https://github.com/kallytang/Parstagram/blob/master/user_feed.gif' title='Video Walkthrough' width='250px' alt='Video Walkthrough' /><br>
+<img src='https://github.com/kallytang/Parstagram/blob/master/view_last_20_posts.gif' title='Video Walkthrough' width='250px' alt='Video Walkthrough' /><br>
 
 User can swipe and refresh:<br>
 <img src='https://github.com/kallytang/Parstagram/blob/master/swiperefresh.gif' title='Video Walkthrough' width='250px' alt='Video Walkthrough' /><br>
