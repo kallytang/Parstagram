@@ -10,6 +10,7 @@ import android.os.Bundle;
 import android.view.MenuItem;
 
 import com.example.parstagram.fragments.ComposeFragment;
+import com.example.parstagram.fragments.LikeFragment;
 import com.example.parstagram.fragments.PostsFragment;
 import com.example.parstagram.fragments.ProfileFragment;
 import com.example.parstagram.fragments.SettingsFragment;
@@ -40,14 +41,12 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case R.id.action_compose:
                         fragment = new ComposeFragment();
-
                         break;
                     case R.id.action_setting:
                         fragment = new SettingsFragment();
                         break;
                     case R.id.action_like:
-                        fragment = new SettingsFragment();
-                        item.setIcon(R.drawable.ufi_heart_active);
+                        fragment = new LikeFragment();
                         break;
                     default:
                         fragment = new ComposeFragment();
