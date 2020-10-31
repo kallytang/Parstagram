@@ -49,7 +49,7 @@ User can navigate between posts
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
-didn't have as much time this week to implement more stretch stories
+Didn't have as much time this week to implement more stretch stories, User can log out on the search bar icon(will make an icon in the future to log out when I get the time)
 
 
 ## Open-source libraries used
