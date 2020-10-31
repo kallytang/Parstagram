@@ -12,7 +12,7 @@
             android:id="@+id/top_tool_bar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true">
+            >
 
             <include
                 layout="@layout/top_app_bar"
@@ -22,69 +22,26 @@
                 android:layout_marginTop="0dp" />
         </RelativeLayout>
 
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@id/top_tool_bar"
-            android:layout_marginTop="15dp"
-            android:orientation="vertical"
-            android:padding="15dp">
-
-            <EditText
-                android:id="@+id/etDescription"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:autofillHints=""
-                android:ems="10"
-                android:hint="@string/description"
-                android:inputType="text" />
-
-            <Button
-                android:id="@+id/btnCaptureImage"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/take_picture" />
-            <RelativeLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <ImageView
-                    android:id="@+id/ivPostImage"
-                    android:layout_width="match_parent"
-                    android:layout_height="200dp"
-                    android:contentDescription="@string/image_to_be_posted"
-                    tools:srcCompat="@tools:sample/avatars" />
-
-                <ProgressBar
-                    android:id="@+id/pbLoading"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:layout_centerHorizontal="true"
-                    android:layout_centerVertical="true"
-                    android:visibility="invisible" />
-
-            </RelativeLayout>
+    <FrameLayout
+        android:id="@+id/flContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bottomNavigationBar"
+        android:layout_below="@+id/top_tool_bar"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp" />
 
 
-            <Button
-                android:id="@+id/btnSubmit"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="@string/submit" />
-
-
-        </LinearLayout>
-
-        <fragment
-            android:id="@+id/fragment"
-            android:name="com.example.parstagram.BottomNavBar"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginBottom="0dp"
-            tools:layout="@layout/fragment_bottom_nav_bar" />
-
-
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:background="@drawable/background_layout"
+        android:id="@+id/bottomNavigationBar"
+        android:layout_width="match_parent"
+        app:labelVisibilityMode="unlabeled"
+        app:itemTextColor="@color/white"
+        app:itemIconTint="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bottom_navigation" />
 
 
 </RelativeLayout>

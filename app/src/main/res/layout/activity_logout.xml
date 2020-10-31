@@ -6,20 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".LogoutActivity">
 
-    <Button
-        android:id="@+id/btnLogout"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_centerHorizontal="true"
-        android:layout_centerVertical="true"
 
-        android:text="Logout" />
 
-    <fragment
-        android:id="@+id/fragment2"
-        android:name="com.example.parstagram.BottomNavBar"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_marginBottom="0dp" />
 </RelativeLayout>
